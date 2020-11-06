@@ -1,0 +1,62 @@
+{
+    "store_id": "string",
+    "active": false,
+    "store_name": "string",
+    "domain": "string",
+    "theme": "string",
+    "facebook_pixel": "string",
+    "description": "string",
+    "assets": {
+        "logos": ["link", "link"],
+        "photos": ["link", "link"],
+        "videos": ["link", "link"]
+    },
+    "analytics": {
+        "traffic": {
+            "current_visitors": 0,
+            "total_visitors": 0,
+            "total_sessions": 0,
+            "today_session": 0,
+            "today_visitors": 0,
+            "yesterday_visitors": 0,
+            "yesterday_sessions": 0,
+            "week_visitors": 0,
+            "week_sessions": 0,
+            "month_visitors": 0,
+            "month_sessions": 0,
+            "visitors": [{
+                "ip": "string",
+                "email": "string",
+                "total_sessions": 0,
+                "log": ["date", "date"]
+            }]
+        },
+        "finance": {
+            "total_orders": 0,
+            "money_earned": 0.0
+        },
+        "heat_map": {
+
+        }
+    },
+    "suppliers": [{
+        "first_name": "string",
+        "last_name": "string",
+        "email": "string",
+        "order_email": "string",
+        "country": "string",
+        "phone_number": "string"
+    }],
+    "products": [{
+        "product_name": "string",
+        "description": "string",
+        "price": 0.0,
+        "photos": ["link", "link"],
+        "videos": ["link", "link"],
+        "variations": [{
+            "color": "string",
+            "sizes": "",
+            "price": 0.0
+        }]
+    }]
+}
