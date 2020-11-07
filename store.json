@@ -55,7 +55,7 @@
         "videos": ["link", "link"],
         "variations": [{
             "color": "string",
-            "sizes": "",
+            "size": "",
             "price": 0.0
         }]
     }]

@@ -1,4 +1,6 @@
 import os
+from shutil import copyfile
+
 
 def main():
     store_name = str(input("Enter your new store name: "))
