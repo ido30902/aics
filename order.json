@@ -1,0 +1,13 @@
+{
+    "store_id": "string",
+    "fulfilled": false,
+    "arrived": false,
+    "shipping": {
+        "customer": {
+
+        }
+    },
+    "billing": {
+
+    }
+}
