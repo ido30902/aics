@@ -9,19 +9,10 @@ const suppliersRoute = require('./routes/suppliers');
 const express = require('express');
 const app = express();
 
-/* Extra modules */
-//Body Parser
-const bodyParser = require('body-parser');
-
 // Example route
 app.get('/', (req, res) => {
+    res.redirect("http://api.aesltd.co/welcome.html");
 
-    //Auth check  => Todo - add it
-    if (true) {
-        res.send(req.params.id);
-    } else {
-        res.send(error_msg.invalidTokenMessage());
-    }
 });
 
 

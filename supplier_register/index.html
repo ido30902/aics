@@ -10,7 +10,7 @@
 
 
 <body>
-    <form action="upload_details()" style="border:1px solid #ccc">
+    <form style="border:1px solid #ccc">
         <div class="container">
 
             <h1>Advanced E-Commerce Systems .Ltd - Supplier Registration</h1>
@@ -23,13 +23,13 @@
             </section>
 
             <section id="input_section">
-                <label for="first_name"><b>Middle Name</b></label>
+                <label for="middle_name"><b>Middle Name</b></label>
                 <p>*Not Required</p>
                 <input type="text" placeholder="Enter Your Middle Name" name="middle_name">
             </section>
 
             <section id="input_section">
-                <label for="first_name"><b>Last Name</b></label>
+                <label for="last_name"><b>Last Name</b></label>
                 <input type="text" placeholder="Enter Your Last Name" name="last_name" required>
             </section>
 
@@ -44,10 +44,15 @@
                 <input type="text" placeholder="Enter your Orders Email" name="orders_email" required>
             </section>
 
+            <section id="input_section">
+                <label for="phone_number"><b>Phone Number</b></label>
+                <input type="tel" placeholder="Enter your phone number" name="phone_number" required>
+            </section>
+
             <p>By registering you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
             <div class="clearfix">
-                <button type="submit" class="signupbtn">Sign Up</button>
+                <button onclick="upload_details()" type="submit" class="signupbtn">Sign Up</button>
             </div>
         </div>
     </form>
